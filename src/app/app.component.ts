@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { EjemploPipesComponent } from "./Component/ejemplo-pipes/ejemplo-pipes.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, EjemploPipesComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
